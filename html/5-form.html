@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <style>
+        fieldset {
+            width: 50%;
+            margin-left: 22%;
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit" method="POST">
+
+        <!-- input -->
+        <h2>User Information</h2>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required> <br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required> <br>
+
+        <!-- radio button -->
+        <h4>Gender:</h4>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" 
+               name="gender" v alue="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" 
+               name="gender" value="female"> <br>
+
+        <!-- checkbox -->
+        <h4>Interests:</h4>
+        <input type="checkbox" id="tech" name="interests" value="Technology">
+        <label for="tech">Technology</label><br>
+
+        <input type="checkbox" id="sports" name="interests" value="Sports">
+        <label for="sports">Sports</label><br><br>
+
+        <!-- dropdown list -->
+
+        <label for="fruits">Choose a fruit:</label>
+        <select id="fruits" name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select><br>
+
+        <!-- text area -->
+
+        <p>Please enter your comments:</p>
+        <textarea name="userComments" rows="4" cols="50">
+         Enter your text here...
+        </textarea><br>    
+
+        <!-- fieldset & legend -->
+
+        <fieldset form="mygeeks">
+            <legend>JAVA:</legend>
+            Title:
+            <input type="text">
+            <br> Link:
+            <input type="text">
+            <br> User ID:
+            <input type="text">
+        </fieldset>
+        <br>
+        <fieldset form="mygeeks">
+            <legend>PHP:</legend>
+            Title:
+            <input type="text">
+            <br> Link:
+            <input type="text">
+            <br> User ID:
+            <input type="text">
+        </fieldset><br><br>
+
+        <!-- datalist -->
+
+        <label>Your Cars Name: </label>
+        <input list="cars">
+        <datalist id="cars">
+            <option value="BMW" />
+            <option value="Bentley" />
+            <option value="Mercedes" />
+            <option value="Audi" />
+            <option value="Volkswagen" />
+        </datalist><br>
+
+        <!-- submit button -->
+
+        <br><input type="submit" value="Submit">
+    </form>          
+</body>
+</html>
