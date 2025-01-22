@@ -1,0 +1,67 @@
+section, div {
+    border: 1px solid black;
+}
+section {
+    padding: 5px;
+    display: flex;
+}
+div {
+    background-color: aqua;
+    width: 25px;
+    height: 25px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* properties */
+.dis {
+    display: inline-flex;
+}
+
+.fd {
+    flex-direction: column-reverse;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+.fw div {
+    width: 40%;
+}
+
+.jc {
+    justify-content: space-between;
+}
+
+.ai {
+    align-items: center;
+    height: 100px;
+}
+.ai1 {
+    height: 50px;
+}
+.ai2 {
+    height: 80px;
+}
+.ai3 {
+    height: 30px;
+}
+
+.ac {
+    align-content: center;
+    height: 100px;
+    flex-wrap: wrap;
+}
+.ac div {
+    width: 40%;
+}
+
+.asc {
+    height: 100px;
+    align-self: flex-start;
+}
+.as {
+    align-self: center;
+}
