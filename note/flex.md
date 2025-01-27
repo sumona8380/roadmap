@@ -30,4 +30,5 @@ Flexbox, short for Flexible Box Layout, is a one-dimensional layout method for a
     * `flex-shrink` - determines how much flex items can shrink when flex container runs out of space
     * `flex-basis` - sets initial size of item (before space allocation) on the main axis
 
-# [Code](/code/flex.css)
+# [HTML File](/code/flex.html)
+# [CSS File](/code/flex.css)

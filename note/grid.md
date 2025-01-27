@@ -48,4 +48,5 @@ CSS Grid Layout is a two dimensional layout system that utilizes both columns an
     * `order` - specifies the order of grid items
     * `z-index` - specifies the stacking order of grid items
 
-# [Code](/code/grid.html)
+# [HTML File](/code/grid.html)
+# [CSS File](/code/grid.css)

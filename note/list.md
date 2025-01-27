@@ -32,4 +32,4 @@
     * `list style types` - `disc`, `circle`, `square`, `none`
     * `compact` - smaller list (not supported by html5)
 
-# [Code](/code/list.html)
+# [HTML File](/code/list.html)
