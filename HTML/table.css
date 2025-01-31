@@ -1,0 +1,22 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 15px;
+}
+th{
+    text-align: left;
+}
+table{
+    border-spacing: 5px; /* not working for border-collapse */
+    width: 50%;
+    background-color: #f2f2d1;
+}
+
+#second-tbl{
+    width: auto;
+}
+#second-tbl td{
+    width: 150px;
+}
