@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <!-- input -->
+        <h1>input</h1>
+
+        <label for="">text</label>
+        <input type="text" id="" name="" value=""> <br>
+        <label for="">number</label>
+        <input type="number" id="" name="" value=""> <br>
+        <label for="">password</label>
+        <input type="password" id="" name="" value=""> <br>
+        <label for="">tel - telephone</label>
+        <input type="tel" id="" name="" value=""> <br>
+        <label for="">email</label>
+        <input type="email" id="" name="" value=""> <br>
+        <label for="">radio</label>
+        <input type="radio" id="" name="" value=""> <br>
+        <label for="">checkbox</label>
+        <input type="checkbox" id="" name="" value=""> <br>
+        <label for="">color</label>
+        <input type="color" id="" name="" value=""> <br>
+        <label for="">date</label>
+        <input type="date" id="" name="" value=""> <br>
+        <label for="">time</label>
+        <input type="time" id="" name="" value=""> <br>
+        <label for="">datetime-local</label>
+        <input type="datetime-local" id="" name="" value=""> <br>
+        <label for="">week</label>
+        <input type="week" id="" name="" value=""> <br>
+        <label for="">month</label>
+        <input type="month" id="" name="" value=""> <br>
+        <label for="">file</label>
+        <input type="file" id="" name="" value=""> <br>
+        <label for="">image</label>
+        <input type="image" id="" name="" value=""> <br>
+        <label for="">range</label>
+        <input type="range" id="" name="" value=""> <br>
+        <label for="">search</label>
+        <input type="search" id="" name="" value=""> <br>
+        <label for="">hidden</label>
+        <input type="hidden" id="" name="" value=""> <br>
+        <label for="">url</label>
+        <input type="url" id="" name="" value=""> <br>
+        <label for="">reset</label>
+        <input type="reset" id="" name="" value=""> <br>
+        <label for="">submit</label>
+        <input type="submit" id="" name="" value=""> <br>
+        <label for="">button</label>
+        <input type="button" id="" name="" value=""> <br>
+
+        <!-- datalist -->
+        <h1>datalist</h1>
+
+        <label for="browser">Choose a browser:</label>
+        <input list="browsers" name="browser" id="browser">
+        
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+
+        <!-- button -->
+        <h1>button</h1>
+
+        <button ondblclick="">button</button>
+        
+        <!-- select -->
+        <h1>select</h1>
+
+        <label for=""></label>
+        <select name="" id="" name="" size="" multiple>
+            <optgroup label="">
+                <option value="">option-1</option>
+                <option value="">option-2</option>
+                <option value="" selected>option-3 (selected)</option>
+                <option value="">option-4</option>
+                <option value="">option-5</option>
+            </optgroup>
+        </select>
+        
+        <!-- fieldset -->
+        <h1>fieldset</h1>
+
+        <fieldset>
+            <legend>Person:</legend>
+            <label for="fname">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        
+        <!-- textarea -->
+        <h1>textarea</h1>
+
+        <label for="w3review">Review of W3Schools:</label>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+            At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+        </textarea> <br>
+
+        <label for="">style instead of rows, cols</label>
+        <textarea name="" id="" style="width: 200px; height: 100px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda repellat eaque neque, non at!
+        </textarea>
+        
+    </form>
+
+    <!-- output -->
+    <h1>output</h1>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+    </form>
+</body>
+</html>
