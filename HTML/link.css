@@ -1,0 +1,27 @@
+/* changes in link color */
+
+.link-color
+{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.link-color:visited{
+    background-color: blue;
+}
+.link-color:hover{
+    background-color: green;
+}
+.link-color:active{
+    background-color: orangered;
+}
+
+/* button link */
+.btn{
+    color: black;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
