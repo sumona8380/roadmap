@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/HTML/media.css">
+</head>
+<body>
+    <!-- image attributes -->
+    <h1>image attributes</h1>
+
+    <p>src, alt, title</p>
+    <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="" title="icon">
+
+    <p>crossorigin</p>
+    <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="" crossorigin="use-credentials | flaticon">
+
+    <p>height, width</p>
+    <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="" height="50px" width="50px">
+
+    <p>ismap</p>
+    <a href="https://www.flaticon.com/">
+        <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="" ismap>
+    </a>
+
+    <p>loading</p>
+    <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="" loading="lazy">
+
+    <p>referrerpolicy</p>
+    <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="" referrerpolicy="origin">
+
+    <p>srcset</p>
+    <picture>
+        <source media="(min-width:650px)" srcset="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/icons.png">
+        <source media="(min-width:465px)" srcset="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/interface.png">
+        <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="">
+    </picture>
+
+    <p>sizes</p>
+    <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="" sizes="((min-width: 300px) and (max-width: 400px)) 10px,
+    ((min-width: 401px) and (max-width: 700px)) 20px,
+     (min-width: 701px) 30px">
+
+    <p>usemap</p>
+    <img src="https://media.flaticon.com/dist/min/img/home/cards-products-section/circles/stickers.png" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+
+    <!-- background image -->
+    <p>background image</p>
+    <section class="bg-image"></section>
+
+    <!-- audio -->
+    <p>audio</p>
+    <audio controls>
+        <source src="https://media.geeksforgeeks.org/wp-content/uploads/20230524142525/gfg_offline_classes_en.mp3"
+                type="audio/mp3">
+        <source src="https://media.geeksforgeeks.org/wp-content/uploads/20220913101124/audiosample.ogg"
+                type="audio/mp3">
+    </audio>
+    
+    <!-- video -->
+
+    <p>video</p>
+    <video width="320" height="240" controls>
+        <source src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4"
+            type="video/mp4">
+        Sample Video
+    </video>
+
+    <!-- iframe -->
+
+    <p>iframe</p>
+    <iframe src="https://media.geeksforgeeks.org/wp-content/uploads/20240206111438/uni2.html" height="370" width="400">
+    </iframe>
+
+</body>
+</html>
